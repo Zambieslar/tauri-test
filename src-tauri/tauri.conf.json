@@ -5,7 +5,7 @@
   "identifier": "com.tauri.dev",
   "build": {
     "frontendDist": "../dist",
-    "devUrl": "http://localhost:5173",
+    "devUrl": "http://172.24.1.142:5173",
     "beforeDevCommand": "yarn dev",
     "beforeBuildCommand": "yarn build"
   },
