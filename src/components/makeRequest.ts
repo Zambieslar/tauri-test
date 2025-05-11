@@ -1,4 +1,4 @@
-export async function makeHttpRequest(url: string, method: 'GET' | 'POST' | 'PUT' | 'DELETE' = 'GET', body: any = null, headers: HeadersInit = {}) {
+export async function makeHttpRequest(url: string, method: 'GET' | 'POST' | 'PUT' | 'DELETE' = 'GET') {
     try {
         const response = await fetch(url, {
             method,
