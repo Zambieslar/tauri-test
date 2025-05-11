@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import {makeHttpRequest} 'makeRequest.ts'
+import {makeHttpRequest} from 'makeRequest.ts'
 
 defineProps<{ msg: string }>()
 
