@@ -2,8 +2,6 @@ export async function makeHttpRequest(url: string, method: 'GET' | 'POST' | 'PUT
     try {
         const response = await fetch(url, {
             method,
-            headers,
-            body: body ? JSON.stringify(body) : null,
         });
 
         if (!response.ok) {
